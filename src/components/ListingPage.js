@@ -25,7 +25,8 @@ function ListingPage({ onScroll, listInnerRef, userList }) {
                   <Card.Img
                     variant="top"
                     src={item.mentorData.profileUrl}
-                    style={{ width: "10rem", height: "10rem" }}
+                    style={{ height: '96px',
+                      width: '96px' }}
                   />
                   <Card.Body>
                     <Card.Title
